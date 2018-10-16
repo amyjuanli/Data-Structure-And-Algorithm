@@ -30,6 +30,7 @@ class SingleLinkedList {
         var current = this.head;
         var tail = current;
         // store the new tail as the second to the last node on the list 
+        // To locate the node in SLL, we have to go through from head, node by node 
         while (current.next) {
             tail = current;
             current = current.next;

@@ -86,13 +86,17 @@ DLL provides more efficient operations like *pop*, print out list reversely, ...
 
 * Kinds of Tress 
   * Trees
-  * Binary Trees
+  * Binary Trees (one node can have no more than 2 child)
   * Binary Search Trees (BST)
 |    Operation   | Big O Notation   | 
 | -------------- | ---------------- | 
 | Insertion      | O(log n)         | 
 | Search         | O(log n)         | 
-
+  
+* Tree Traversals 
+  * Breadth-First Search (BFS)
+  * DFS - post order (all the way to the left and all the way to the right)
+  * DFS - post in order ()
 
 ## Hash Tables 
 JS has *Object* and *Maps* which use hash tables.  

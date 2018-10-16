@@ -17,7 +17,6 @@
 function insertionSort(arr) {
     for(var i = 1; i < arr.length; i++) {
         var currentVal = arr[i];
-        
         // if sorted array, arr[j] > currentVal return false, so O(n)
         for (var j = i-1; j >= 0 && arr[j] > currentVal; j--) {
             console.log('move larger value to next position');

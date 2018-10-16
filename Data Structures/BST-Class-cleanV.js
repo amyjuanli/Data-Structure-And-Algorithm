@@ -36,6 +36,7 @@ class BinarySearchTree {
             }
         }
     }
+
     contains(val) {
         if(!this.root) return false;
         var current = this.root;
